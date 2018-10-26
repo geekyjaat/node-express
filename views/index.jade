@@ -1,5 +1,9 @@
 extends layout
 
 block content
-  h1= title
+  .container
+    header(class="blog-header py-3")
+      .row(class="flex-nowrap justify-content-between align-items-center")
+        div(class="col-4 pt-1")
+          a.text-muted(href="#") Subscribe
   p Welcome to #{title}
